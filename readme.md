@@ -171,3 +171,49 @@ code/plot_svd.py: 因为可能需要图片，就可视化一条样本，用于样本分析
 code/preprocessing.py: 数据预处理文件
 ```
 
+#### 6.基于迁移学习的故障诊断（模型）
+
+```
+文件夹说明：
+data：数据集存放路径
+
+save_picture/1DCNN_Transfer:存放1DCNN_Transfer迁移的图片
+
+model/1DCNN_Transfer.h5: 保存的1DCNN_Transfer模型文件
+
+code/1DCNN_Transfer.py: 1DCNN_Transfer代码运行文件
+code/preprocessing.py: 数据预处理文件
+```
+
+#### 7.基于通用模型代码的故障诊断（GRU、Inception、LSTM、RandomForest、SVM）
+
+```
+文件夹说明：
+data：数据集存放路径
+
+save_picture/GRU:存放GRU的图片
+save_picture/Inception:存放Inception的图片
+save_picture/LSTM:存放LSTM的图片
+
+model/GRU.h5: 保存的GRU模型文件
+model/Inception.h5: 保存的Inception模型文件
+model/LSTM.h5: 保存的LSTM模型文件
+
+code/preprocessing.py: 数据预处理文件
+code/GRU.py: GRU代码运行文件
+code/Inception.py: Inception代码运行文件
+code/LSTM.py: LSTM代码运行文件
+code/RandomForest.py: RandomForest代码运行文件
+code/SVM.py: SVM代码运行文件
+```
+
+
+
+
+
+
+
+
+
+
+
